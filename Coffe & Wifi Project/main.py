@@ -4,7 +4,8 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField,URLField,TimeField,SelectField
 from wtforms.validators import DataRequired, URL
 import csv
-
+import os
+from dotenv import load_dotenv
 '''
 Red underlines? Install the required packages first: 
 Open the Terminal in PyCharm (bottom left). 
@@ -17,9 +18,9 @@ pip3 install -r requirements.txt
 
 This will install the packages from requirements.txt for this project.
 '''
-
+load_dotenv()
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 Bootstrap5(app)
 
 
