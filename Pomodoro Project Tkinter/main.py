@@ -68,7 +68,7 @@ tittle_label=Label(text="Timer",font=(FONT_NAME,35,"bold"),foreground=GREEN,high
 tittle_label.grid(column=1,row=0)
 
 canvas=Canvas(width=200, height=224,bg=YELLOW,highlightthickness=0)
-tomato_img=PhotoImage(file="tomato.png")
+tomato_img=PhotoImage(file="Pomodoro Project Tkinter/tomato.png")
 canvas.create_image(100,112,image=tomato_img)
 canvas.grid(column=1,row=1)
 
