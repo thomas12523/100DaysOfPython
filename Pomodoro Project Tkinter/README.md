@@ -1,5 +1,6 @@
 # Pomodoro Timer
-![Texto alternativo](Pomodoro Project Tkinter/tomato.png)
+![Texto alternativo](pomodoro_timer.png)
+
 This is a **Pomodoro Timer** built with Python and Tkinter. It follows the Pomodoro technique to improve focus and productivity by alternating between work sessions and short/long breaks.
 
 ## ⏳ Features
